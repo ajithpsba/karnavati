@@ -712,6 +712,11 @@ a {
 	-o-transition: all 1s ease 0s;
 	font-weight: 300;
 }
+@media only screen and (max-width: 600px) {
+	.menu-search .sb-search-submit i{
+	  display: none;
+	}
+  }
 
 .menu-block.navbar-fixed-top .menu-search .sb-search-submit:hover i,
 .menu-search .sb-search-submit:hover i {
